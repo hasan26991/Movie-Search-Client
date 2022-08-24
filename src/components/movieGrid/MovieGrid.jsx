@@ -3,10 +3,10 @@ import './movieGrid.css'
 import { useNavigate } from 'react-router-dom'
 import { imageHost } from '../../config'
 
-const MovieGrid = ({ movie, index }) => {
+const MovieGrid = ({ movie }) => {
     const navigate = useNavigate()
     return (
-        <div key={index} className='gridContainer' onClick={() => navigate('/movie', { state: { id: movie?.id } })}>
+        <div className='gridContainer' onClick={() => navigate('/movie', { state: { id: movie?.id } })}>
             <div className='imgCaontainer'>
                 <img className='gridImage' src={`${imageHost}${movie?.backdrop_path}`} alt='' />
             </div>

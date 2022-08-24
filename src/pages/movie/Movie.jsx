@@ -41,28 +41,28 @@ const Movie = () => {
                             })}
                         </div>
                     </div>
-                    <hr class="lineBreak"></hr>
+                    <hr className="lineBreak"></hr>
                     <div className='genresRow'>
                         <span className='movieKeyName'>Rating</span>
                         <div className='movieData'>
                             <span>{movie?.vote_average}</span>
                         </div>
                     </div>
-                    <hr class="lineBreak"></hr>
+                    <hr className="lineBreak"></hr>
                     <div className='genresRow'>
                         <span className='movieKeyName'>Overview</span>
                         <div className='movieData'>
                             <span className='desc'>{movie?.overview}</span>
                         </div>
                     </div>
-                    <hr class="lineBreak"></hr>
+                    <hr className="lineBreak"></hr>
                     <div className='genresRow'>
                         <span className='movieKeyName'>Release Date</span>
                         <div className='movieData'>
                             <span>{movie?.release_date}</span>
                         </div>
                     </div>
-                    <hr class="lineBreak"></hr>
+                    <hr className="lineBreak"></hr>
                     <div className='genresRow'>
                         <span className='movieKeyName'>Creators</span>
                         <div className='movieData'>

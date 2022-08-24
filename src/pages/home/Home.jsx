@@ -1,5 +1,5 @@
 import React from 'react'
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import axios from 'axios';
 import './home.css'
 import MovieGrid from '../../components/movieGrid/MovieGrid';
@@ -11,10 +11,6 @@ const Home = () => {
     const [searchInput, setSearchInput] = useState('')
     const [movieList, setMovieList] = useState([]);
 
-
-
-    useEffect(() => {
-    }, []);
 
     const handleSearch = async (e) => {
         try {
@@ -36,7 +32,7 @@ const Home = () => {
             </div>
             <div className='MovieListontainer'>
                 {movieList.map((movie, index) => (
-                    <MovieGrid index={index} movie={movie} />
+                    <MovieGrid key={index} movie={movie} />
                 ))}
             </div>
         </div>
