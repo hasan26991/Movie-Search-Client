@@ -1,0 +1,58 @@
+.gridContainer {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    height: 500px;
+    border: solid rgb(245, 239, 239) 5px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    flex-grow: 1;
+    max-width: 28.5%;
+}
+
+.imgCaontainer {
+    height: 50%;
+    margin: 2px;
+}
+
+.gridImage {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.infooContainer {
+    height: 50%;
+    width: 100%;
+}
+
+.titleContainer {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.release-popularityContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin: 0px 20px 0px 20px;
+}
+
+.overview {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* number of lines to show */
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    margin: 0px 20px 0px 20px;
+
+}

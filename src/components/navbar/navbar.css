@@ -1,0 +1,27 @@
+.navbar {
+    height: 60px;
+    width: auto;
+    background-color: rgb(83, 72, 72);
+    margin: 40px 40px 0 40px;
+}
+
+.companyLabel {
+    height: 100%;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+    color: white;
+}
+
+.homeButton {
+    height: 100%;
+    width: 150px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
