@@ -56,3 +56,10 @@
     margin: 0px 20px 0px 20px;
 
 }
+
+@media only screen and (max-width: 720px) {
+    .gridContainer {
+        width: 100%;
+        max-width: 100%;
+    }
+}

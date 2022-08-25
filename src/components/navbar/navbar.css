@@ -2,7 +2,7 @@
     height: 60px;
     width: auto;
     background-color: rgb(83, 72, 72);
-    margin: 40px 40px 0 40px;
+    margin: 0 40px 0 40px;
 }
 
 .companyLabel {
@@ -24,4 +24,18 @@
 
 .link {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 720px) {
+    .navbar {
+        margin: 10px 10px 0 10px;
+    }
+
+    .companyLabel {
+        display: none;
+    }
+
+    .homeButton {
+        width: 30%;
+    }
 }
